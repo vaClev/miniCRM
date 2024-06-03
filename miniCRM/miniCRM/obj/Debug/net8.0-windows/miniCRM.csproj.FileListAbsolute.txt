@@ -1,0 +1,17 @@
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\bin\Debug\net8.0-windows\miniCRM.exe
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\bin\Debug\net8.0-windows\miniCRM.deps.json
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\bin\Debug\net8.0-windows\miniCRM.runtimeconfig.json
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\bin\Debug\net8.0-windows\miniCRM.dll
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\bin\Debug\net8.0-windows\miniCRM.pdb
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.csproj.GenerateResource.cache
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.AssemblyInfoInputs.cache
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.AssemblyInfo.cs
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.csproj.CoreCompileInputs.cache
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.sourcelink.json
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.dll
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\refint\miniCRM.dll
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.pdb
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.genruntimeconfig.cache
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\ref\miniCRM.dll
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.CRMWindow.resources
