@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "miniCRM/1.0.0": {
+        "dependencies": {
+          "CRMClasses": "1.0.0"
+        },
         "runtime": {
           "miniCRM.dll": {}
+        }
+      },
+      "CRMClasses/1.0.0": {
+        "runtime": {
+          "CRMClasses.dll": {}
         }
       }
     }
   },
   "libraries": {
     "miniCRM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CRMClasses/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

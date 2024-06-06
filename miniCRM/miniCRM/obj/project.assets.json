@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "CRMClasses/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CRMClasses.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRMClasses.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CRMClasses/1.0.0": {
+      "type": "project",
+      "path": "../CRMClasses/CRMClasses.csproj",
+      "msbuildProject": "../CRMClasses/CRMClasses.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "CRMClasses >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Oleg Vasilev\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\CRMClasses\\CRMClasses.csproj": {
+              "projectPath": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\CRMClasses\\CRMClasses.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

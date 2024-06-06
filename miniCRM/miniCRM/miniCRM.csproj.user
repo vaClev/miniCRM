@@ -1,6 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Components\ShowDaylyReportControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Components\ShowDealsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Components\ShowPartnersControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="CRMWindow.cs">
       <SubType>Form</SubType>
     </Compile>

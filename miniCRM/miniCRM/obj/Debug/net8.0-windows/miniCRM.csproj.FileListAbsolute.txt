@@ -15,3 +15,10 @@ C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.
 C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.genruntimeconfig.cache
 C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\ref\miniCRM.dll
 C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.CRMWindow.resources
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.csproj.AssemblyReference.cache
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.ShowPartnersControl.resources
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\bin\Debug\net8.0-windows\CRMClasses.dll
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\bin\Debug\net8.0-windows\CRMClasses.pdb
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.csproj.Up2Date
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.ShowDaylyReportControl.resources
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.ShowDealsControl.resources

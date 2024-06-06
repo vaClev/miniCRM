@@ -50,8 +50,9 @@
             tabControl1.Margin = new Padding(0);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(980, 606);
+            tabControl1.Size = new Size(970, 610);
             tabControl1.TabIndex = 0;
+            tabControl1.Selected += tabControl1_Selected;
             // 
             // tabPage1
             // 
@@ -62,7 +63,7 @@
             tabPage1.Location = new Point(4, 4);
             tabPage1.Margin = new Padding(0);
             tabPage1.Name = "tabPage1";
-            tabPage1.Size = new Size(972, 574);
+            tabPage1.Size = new Size(962, 578);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Воронка продаж";
             // 
@@ -94,7 +95,7 @@
             tabPage2.Location = new Point(4, 4);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(972, 574);
+            tabPage2.Size = new Size(962, 578);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Список контрагентов";
             // 
@@ -103,7 +104,7 @@
             tabPage3.BackColor = Color.FromArgb(255, 255, 192);
             tabPage3.Location = new Point(4, 4);
             tabPage3.Name = "tabPage3";
-            tabPage3.Size = new Size(972, 574);
+            tabPage3.Size = new Size(962, 578);
             tabPage3.TabIndex = 2;
             tabPage3.Text = "Ежедневный отчет";
             // 
@@ -123,11 +124,12 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
-            ClientSize = new Size(984, 661);
+            ClientSize = new Size(1000, 700);
             Controls.Add(label1);
             Controls.Add(tabControl1);
             Name = "CRMWindow";
             Text = "miniCRM";
+            Resize += CRMWindow_Resize;
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             ResumeLayout(false);
