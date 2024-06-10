@@ -70,10 +70,11 @@
             // groupBox2
             // 
             groupBox2.BackColor = Color.Gray;
+            groupBox2.Dock = DockStyle.Left;
             groupBox2.Font = new Font("Arial", 9.75F);
-            groupBox2.Location = new Point(169, 6);
+            groupBox2.Location = new Point(157, 0);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(165, 562);
+            groupBox2.Size = new Size(165, 578);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             groupBox2.Text = "Назначена встреча";
@@ -81,10 +82,11 @@
             // groupBox1
             // 
             groupBox1.BackColor = Color.Silver;
+            groupBox1.Dock = DockStyle.Left;
             groupBox1.Font = new Font("Arial", 9.75F);
-            groupBox1.Location = new Point(6, 6);
+            groupBox1.Location = new Point(0, 0);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(157, 562);
+            groupBox1.Size = new Size(157, 578);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "Диагностирован интерес";

@@ -8,10 +8,15 @@ namespace CRMClasses.Models
 {
     public class Deal
     {
-        public int PartnerID { set; get; }
         public int Id { set; get; }
+        public Partner? Partner { set; get; }
         public byte StageOfSale { set; get; }
         public string Description { set; get; }
+        public int totalCost {  set; get; } 
+        public Deal() 
+        {
+            Description = "test";
+        }
 
         public override string ToString()
         {
@@ -19,7 +24,7 @@ namespace CRMClasses.Models
         }
     }
 
-    internal static class StagesOfSale
+    public static class StagesOfSale
     {
         public static string[] stages = [
             "Вывлен интерес", 
@@ -29,8 +34,7 @@ namespace CRMClasses.Models
             "Отработка возражений",
             "Подписание договора",
             "Ожидание оплаты",
-            "Оказание услуг / поставка товара",
-            "Завершена"
+            "Оказание услуг / поставка товара"
         ];
     }
 }

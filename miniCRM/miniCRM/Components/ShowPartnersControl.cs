@@ -20,6 +20,7 @@ namespace miniCRM.Components
             InitializeComponent();
             createTestDataPartners();//заглушка
             UpdatePartnersList();
+
             CalcAndSetSize(parentSize);
         }
         private void CalcAndSetSize(Size parentSize)
@@ -30,7 +31,7 @@ namespace miniCRM.Components
 
 
 
-
+        //Временно находится в этом классе  --- потом удалить
         private void createTestDataPartners()
         {
             var behavePartners = new PartnerBehavior();
