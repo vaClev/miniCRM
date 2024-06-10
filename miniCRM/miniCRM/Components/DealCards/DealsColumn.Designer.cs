@@ -34,6 +34,8 @@
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.AutoScroll = true;
+            flowLayoutPanel1.AutoScrollMargin = new Size(10, 0);
+            flowLayoutPanel1.AutoSize = true;
             flowLayoutPanel1.FlowDirection = FlowDirection.TopDown;
             flowLayoutPanel1.Location = new Point(0, 0);
             flowLayoutPanel1.Margin = new Padding(0);
@@ -46,10 +48,13 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSize = true;
             Controls.Add(flowLayoutPanel1);
+            Margin = new Padding(1, 0, 1, 0);
             Name = "DealsColumn";
-            Size = new Size(150, 700);
+            Size = new Size(150, 800);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

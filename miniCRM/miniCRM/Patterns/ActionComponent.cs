@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using miniCRM.Components;
+using miniCRM.Components.EditControls;
 
 namespace miniCRM.Patterns
 {
-    internal class ActionComponents
+    internal class ActionComponent
     {
         UserControl userControl;
-        public ActionComponents(UserControl userControl) 
+        public ActionComponent(UserControl userControl) 
         { 
             this.userControl = userControl;
         }
@@ -20,9 +21,8 @@ namespace miniCRM.Patterns
             //Упрощеная связка по типу
             switch(userControl)
             {
-                /*case PartnerControl:
-                    return new BehaviorComponentPartner();*/
-               
+                case PartnerHeaderControl:
+                    return new BehaviorComponentPartner();
                 default:
                     throw new NotImplementedException();
             }

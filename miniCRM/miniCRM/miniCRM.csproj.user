@@ -7,16 +7,22 @@
     <Compile Update="Components\DealCards\DealsColumn.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Components\EditControls\PartnerHeaderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Components\ShowDaylyReportControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Components\ShowDealsControl.cs">
+    <Compile Update="Components\DealsPipelineControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Components\ShowPartnersControl.cs">
+    <Compile Update="Components\PartnersListControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="CRMWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Edit.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

@@ -44,14 +44,13 @@ namespace miniCRM
         private void RenderDealsTab()
         {
             tabPage1.Controls.Clear();
-            tabPage1.Controls.Add(new ShowDealsControl());
+            tabPage1.Controls.Add(new DealsPipelineControl(tabControl1.Size));
         }
 
         private void RenderPartnersTab()
         {
             tabPage2.Controls.Clear();
-            //MessageBox.Show($"{tabControl1.Size.Width} {tabControl1.Size.Height}");
-            tabPage2.Controls.Add(new ShowPartnersControl(tabControl1.Size));
+            tabPage2.Controls.Add(new PartnersListControl(tabControl1.Size));
         }
         private void RenderDaylyReportTab()
         {

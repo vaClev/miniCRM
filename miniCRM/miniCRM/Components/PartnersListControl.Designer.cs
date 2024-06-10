@@ -1,6 +1,6 @@
 ﻿namespace miniCRM.Components
 {
-    partial class ShowPartnersControl
+    partial class PartnersListControl
     {
         /// <summary> 
         /// Обязательная переменная конструктора.
@@ -55,6 +55,7 @@
             button1.TabIndex = 1;
             button1.Text = "Добавить";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -67,6 +68,7 @@
             button2.TabIndex = 2;
             button2.Text = "Удалить";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // label1
             // 

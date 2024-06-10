@@ -16,6 +16,7 @@ namespace CRMClasses.Models
         public Deal() 
         {
             Description = "test";
+            totalCost = 100000;
         }
 
         public override string ToString()

@@ -16,12 +16,10 @@ C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.
 C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\ref\miniCRM.dll
 C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.CRMWindow.resources
 C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.csproj.AssemblyReference.cache
-C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.ShowPartnersControl.resources
 C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\bin\Debug\net8.0-windows\CRMClasses.dll
 C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\bin\Debug\net8.0-windows\CRMClasses.pdb
 C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.csproj.Up2Date
 C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.ShowDaylyReportControl.resources
-C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.ShowDealsControl.resources
 C:\Users\StudentYandex\Desktop\miniCRM-main\miniCRM\miniCRM\bin\Debug\net8.0-windows\miniCRM.exe
 C:\Users\StudentYandex\Desktop\miniCRM-main\miniCRM\miniCRM\bin\Debug\net8.0-windows\miniCRM.deps.json
 C:\Users\StudentYandex\Desktop\miniCRM-main\miniCRM\miniCRM\bin\Debug\net8.0-windows\miniCRM.runtimeconfig.json
@@ -47,3 +45,9 @@ C:\Users\StudentYandex\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-win
 C:\Users\StudentYandex\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\ref\miniCRM.dll
 C:\Users\StudentYandex\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.DealCards.DealSmallControl.resources
 C:\Users\StudentYandex\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.DealCards.DealsColumn.resources
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.DealCards.DealsColumn.resources
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.DealCards.DealSmallControl.resources
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.PartnerHeaderControl.resources
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\WinFormsApp1.Edit.resources
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.PartnersListControl.resources
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.DealsPipelineControl.resources

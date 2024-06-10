@@ -27,24 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\StudentYandex\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Oleg Vasilev\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\StudentYandex\\Desktop\\miniCRM-main\\miniCRM\\miniCRM\\miniCRM.csproj",
+      "projectUniqueName": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\miniCRM.csproj",
       "projectName": "miniCRM",
-      "projectPath": "C:\\Users\\StudentYandex\\Desktop\\miniCRM-main\\miniCRM\\miniCRM\\miniCRM.csproj",
-      "packagesPath": "C:\\Users\\StudentYandex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\StudentYandex\\Desktop\\miniCRM-main\\miniCRM\\miniCRM\\obj\\",
+      "projectPath": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\miniCRM.csproj",
+      "packagesPath": "C:\\Users\\Oleg Vasilev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\StudentYandex\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Oleg Vasilev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -52,15 +47,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\StudentYandex\\Desktop\\miniCRM-main\\miniCRM\\CRMClasses\\CRMClasses.csproj": {
-              "projectPath": "C:\\Users\\StudentYandex\\Desktop\\miniCRM-main\\miniCRM\\CRMClasses\\CRMClasses.csproj"
+            "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\CRMClasses\\CRMClasses.csproj": {
+              "projectPath": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\CRMClasses\\CRMClasses.csproj"
             }
           }
         }
@@ -69,6 +63,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -93,7 +92,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -11,5 +11,6 @@ namespace CRMClasses.Models
         public static List<Contact> Contacts = new List<Contact>();
         public static List<Deal> Deals = new List<Deal>();
         public static List<Partner> Partners = new List<Partner>();
+
     }
 }

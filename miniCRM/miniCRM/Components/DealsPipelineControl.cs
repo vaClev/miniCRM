@@ -14,19 +14,34 @@ using miniCRM.Components.DealCards;
 
 namespace miniCRM.Components
 {
-    public partial class ShowDealsControl : UserControl
+    public partial class DealsPipelineControl : UserControl
     {
-        private DealColumnsContainer dealColumnsContainer; 
-        public ShowDealsControl()
+        public DealsPipelineControl(Size parentCompSize)
         {
-            dealColumnsContainer = new DealColumnsContainer();
+            createTestDeals();
             InitializeComponent();
+            tableLayoutPanel1.ColumnCount = StagesOfSale.stages.Length;
+            Size = parentCompSize;
             UpdateDeals();
         }
-        private void InitializeDealColumns() 
+
+        private void createTestDeals()
         {
-            dealColumnsContainer = new DealColumnsContainer();
-            tableLayoutPanel1.ColumnCount = StagesOfSale.stages.Length;
+            DealBehavior dealBehavior = new DealBehavior();
+            Random rnd = new Random();
+
+            for (int i = 0; i < 15; i++)
+            {
+                Deal testDeal = new Deal();
+                testDeal.Partner = new Partner();
+                testDeal.Partner.ShortName = "TestPartner";
+                testDeal.StageOfSale = (byte)rnd.Next(0, 8);
+                dealBehavior.AddDeal(testDeal);
+            }
+        }
+
+        private void InitializeDealColumns(DealColumnsContainer dealColumnsContainer)
+        {
             for (int i = 0; i < StagesOfSale.stages.Length; i++)
             {
                 DealsColumn dealsColumn = new DealsColumn();
@@ -34,13 +49,11 @@ namespace miniCRM.Components
             }
         }
 
-
-        /// <summary>
-        /// 
-        /// </summary>
         private void UpdateDeals()
         {
-            InitializeDealColumns();
+            DealColumnsContainer dealColumnsContainer = new DealColumnsContainer();
+            InitializeDealColumns(dealColumnsContainer);
+
             DealBehavior behavior = new DealBehavior();
             var deals = behavior.GetDeals();
 
@@ -50,9 +63,8 @@ namespace miniCRM.Components
             }
             for (int i = 0; i < StagesOfSale.stages.Length; i++)
             {
-                //
-                tableLayoutPanel1.Controls.Add(dealColumn, i, 1);               
+                tableLayoutPanel1.Controls.Add(dealColumnsContainer.GetByIndex(i), i, 1);
             }
-        } 
+        }
     }
 }

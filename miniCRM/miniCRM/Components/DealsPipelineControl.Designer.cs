@@ -1,6 +1,6 @@
 ﻿namespace miniCRM.Components
 {
-    partial class ShowDealsControl
+    partial class DealsPipelineControl
     {
         /// <summary> 
         /// Обязательная переменная конструктора.
@@ -53,6 +53,7 @@
             // 
             // tableLayoutPanel1
             // 
+            tableLayoutPanel1.AutoSize = true;
             tableLayoutPanel1.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
             tableLayoutPanel1.ColumnCount = 1;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle());
@@ -64,16 +65,18 @@
             tableLayoutPanel1.Size = new Size(1300, 500);
             tableLayoutPanel1.TabIndex = 2;
             // 
-            // ShowDealsControl
+            // DealsPipelineControl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSize = true;
             Controls.Add(tableLayoutPanel1);
             Controls.Add(button2);
             Controls.Add(button1);
-            Name = "ShowDealsControl";
+            Name = "DealsPipelineControl";
             Size = new Size(1400, 600);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
