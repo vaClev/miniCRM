@@ -11,60 +11,53 @@ using System.Windows.Forms;
 using CRMClasses.Behavior;
 using CRMClasses.Models;
 using miniCRM.Components.DealCards;
+using miniCRM.Components.EditControls;
+using miniCRM.Patterns;
+using WinFormsApp1;
 
 namespace miniCRM.Components
 {
     public partial class DealsPipelineControl : UserControl
     {
+        DealColumnsContainer dealColumnsContainer;
         public DealsPipelineControl(Size parentCompSize)
         {
-            createTestDeals();
+            dealColumnsContainer = new DealColumnsContainer(StagesOfSale.stages.Length);
             InitializeComponent();
             tableLayoutPanel1.ColumnCount = StagesOfSale.stages.Length;
             Size = parentCompSize;
             UpdateDeals();
         }
 
-        private void createTestDeals()
-        {
-            DealBehavior dealBehavior = new DealBehavior();
-            Random rnd = new Random();
-
-            for (int i = 0; i < 15; i++)
-            {
-                Deal testDeal = new Deal();
-                testDeal.Partner = new Partner();
-                testDeal.Partner.ShortName = "TestPartner";
-                testDeal.StageOfSale = (byte)rnd.Next(0, 8);
-                dealBehavior.AddDeal(testDeal);
-            }
-        }
-
-        private void InitializeDealColumns(DealColumnsContainer dealColumnsContainer)
-        {
-            for (int i = 0; i < StagesOfSale.stages.Length; i++)
-            {
-                DealsColumn dealsColumn = new DealsColumn();
-                dealColumnsContainer.Add(dealsColumn);
-            }
-        }
-
         private void UpdateDeals()
         {
-            DealColumnsContainer dealColumnsContainer = new DealColumnsContainer();
-            InitializeDealColumns(dealColumnsContainer);
-
+            dealColumnsContainer.Clear();
             DealBehavior behavior = new DealBehavior();
             var deals = behavior.GetDeals();
 
+            //сортировка сделок по колонкам
             foreach (var deal in deals)
             {
                 dealColumnsContainer.GetByIndex(deal.StageOfSale)?.AddDeal(deal);
             }
-            for (int i = 0; i < StagesOfSale.stages.Length; i++)
+            // добавление колонок со сделками в отрисованную таблицу
+            int i = 0;
+            foreach (var column in dealColumnsContainer)
             {
-                tableLayoutPanel1.Controls.Add(dealColumnsContainer.GetByIndex(i), i, 1);
+                tableLayoutPanel1.Controls.Add(column, i, 1);
+                i++;
             }
+        }
+        //Кнопка создать новую сделку
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var form = new Edit(new DealHeaderControl(), ActAdd);
+            form.Show();
+        }
+        void ActAdd(UserControl userControl)
+        {
+            DataAdder.ActAdd(userControl);
+            UpdateDeals();
         }
     }
 }

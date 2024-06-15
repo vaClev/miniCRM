@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CRMClasses.Models;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,24 @@ namespace miniCRM.Components.DealCards
 {
     internal class DealColumnsContainer: IEnumerable<DealsColumn>
     {
-        List<DealsColumn> columns = new List<DealsColumn>();
+        List<DealsColumn> columns;
+
+        public DealColumnsContainer(int size)
+        {
+            columns = new List<DealsColumn>();
+            for (int i = 0; i < size; i++)
+            {
+                DealsColumn dealsColumn = new DealsColumn();
+                columns.Add(dealsColumn);
+            }
+        }
+        public void Clear()
+        {
+            foreach (DealsColumn dealsColumn in columns)
+            {
+                dealsColumn.Clear();
+            }
+        }
         public void Add(DealsColumn dealsColumn)
         {
             columns.Add(dealsColumn);

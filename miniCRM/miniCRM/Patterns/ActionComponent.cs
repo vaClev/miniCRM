@@ -23,6 +23,10 @@ namespace miniCRM.Patterns
             {
                 case PartnerHeaderControl:
                     return new BehaviorComponentPartner();
+
+                case DealHeaderControl:
+                    return new BehaviorComponentDeal();
+
                 default:
                     throw new NotImplementedException();
             }

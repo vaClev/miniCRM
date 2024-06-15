@@ -21,7 +21,7 @@ namespace miniCRM.Components.DealCards
         private void renderMiniCard(Deal deal)
         {
            label1.Text = deal.totalCost.ToString();
-           label2.Text = deal.Partner.ToString();
+           label2.Text = deal.Partner?.ShortName ?? "";
            label3.Text = deal.Description.ToString();
         }
     }

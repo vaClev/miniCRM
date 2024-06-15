@@ -23,5 +23,9 @@ namespace miniCRM.Components.DealCards
             DealSmallControl dealSmallControl = new DealSmallControl(deal);
             flowLayoutPanel1.Controls.Add(dealSmallControl);
         }
+        public void Clear()
+        {
+            flowLayoutPanel1.Controls.Clear();
+        }
     }
 }

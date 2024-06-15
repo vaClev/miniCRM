@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CRMClasses.Models
 {
-    public class Deal
+    public class Deal: ICloneable
     {
         public int Id { set; get; }
         public Partner? Partner { set; get; }
@@ -23,6 +23,18 @@ namespace CRMClasses.Models
         {
             return $"{Id} {Description}";
         }
+
+        public object Clone()
+        {
+            Deal clone = new Deal();
+            clone.Partner = this.Partner;
+            clone.StageOfSale = this.StageOfSale;
+            clone.Description = this.Description;
+            clone.totalCost = this.totalCost;
+            clone.Id = this.Id;
+            return clone;
+        }
+        
     }
 
     public static class StagesOfSale
