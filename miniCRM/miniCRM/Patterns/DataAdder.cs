@@ -16,5 +16,12 @@ namespace miniCRM.Patterns
             if (userControl is IModelComponent component)
                 behave?.Add(component.Get());
         }
+        public static void ActUpdate(UserControl userControl)
+        {
+            var act = new ActionComponent(userControl);
+            var behave = act.GetBehavior();
+            if (userControl is IModelComponent component)
+                behave?.Update(component.Get());
+        }
     }
 }

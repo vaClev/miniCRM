@@ -10,5 +10,6 @@ namespace miniCRM.Components.EditControls
     {
         void Set(object obj);
         object Get();
+        void Edit();
     }
 }

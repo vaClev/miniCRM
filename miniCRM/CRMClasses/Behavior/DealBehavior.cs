@@ -13,6 +13,10 @@ namespace CRMClasses.Behavior
         {
             return Repository.Deals;
         }
+        public IEnumerable<Deal> GetDealsByPartner(Partner partner)
+        {
+            return Repository.Deals.Where(d=>d.Partner.Equals(partner));
+        }
         public Deal? GetDeal(int Id)
         {
             return Repository.Deals.FirstOrDefault(p => p.Id == Id);
@@ -27,7 +31,7 @@ namespace CRMClasses.Behavior
         }
         public void UpdateDeal(Deal deal)
         {
-            if (Repository.Partners.Any(p => p.Id == deal.Id))
+            if (Repository.Deals.Any(p => p.Id == deal.Id))
             {
                 var dealToChange = Repository.Deals.First(p => p.Id == deal.Id);
                 dealToChange.Partner = deal.Partner;

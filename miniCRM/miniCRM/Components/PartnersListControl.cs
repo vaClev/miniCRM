@@ -40,12 +40,17 @@ namespace miniCRM.Components
         //нажатие кнопки добавить контрагента
         private void button1_Click(object sender, EventArgs e)
         {
-            var form = new Edit(new PartnerHeaderControl(), ActAdd);
+            var form = new Edit(new PartnerControl(), actionEdit: ActUpdate, actionCreate: ActAdd);
             form.Show();
         }
         void ActAdd(UserControl userControl)
         {
             DataAdder.ActAdd(userControl);
+            UpdatePartnersListbox();
+        }
+        void ActUpdate(UserControl userControl)
+        {
+            DataAdder.ActUpdate(userControl);
             UpdatePartnersListbox();
         }
 

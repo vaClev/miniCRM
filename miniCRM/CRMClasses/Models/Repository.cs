@@ -15,7 +15,7 @@ namespace CRMClasses.Models
 
         static Repository()
         {
-            Random rnd = new Random();
+            /*Random rnd = new Random();
             for (int i = 0; i < 15; i++)
             {
                 Deal testDeal = new Deal();
@@ -25,7 +25,7 @@ namespace CRMClasses.Models
                 testDeal.StageOfSale = (byte)rnd.Next(0, 8);
                 //Deals.Add(testDeal);
                 Partners.Add(testDeal.Partner);
-            }
+            }*/
         }
     }
 }

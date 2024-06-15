@@ -14,10 +14,11 @@ namespace miniCRM.Components.EditControls
     public partial class PartnerHeaderControl : UserControl, IModelComponent
     {
         Partner partner;
-        public PartnerHeaderControl()
+        
+        public PartnerHeaderControl(Partner? partner=null)
         {
-            InitializeComponent();
-            partner = new Partner();
+            InitializeComponent(); 
+            this.partner = partner ?? new Partner();
         }
 
         public Partner GetPartner()
@@ -67,6 +68,13 @@ namespace miniCRM.Components.EditControls
                 SetPartner(partner);
                 return;
             }
+            throw new NotImplementedException();
+        }
+
+
+        //Ввести новый интерфейс редактируемое окно и вынести Edit в него
+        void IModelComponent.Edit()
+        {
             throw new NotImplementedException();
         }
     }

@@ -90,5 +90,10 @@ namespace miniCRM.Components.EditControls
             }
             throw new NotImplementedException();
         }
+
+        void IModelComponent.Edit()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

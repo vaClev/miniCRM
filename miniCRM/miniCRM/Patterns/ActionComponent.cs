@@ -21,7 +21,7 @@ namespace miniCRM.Patterns
             //Упрощеная связка по типу
             switch(userControl)
             {
-                case PartnerHeaderControl:
+                case PartnerControl:
                     return new BehaviorComponentPartner();
 
                 case DealHeaderControl:

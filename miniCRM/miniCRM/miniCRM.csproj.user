@@ -10,6 +10,12 @@
     <Compile Update="Components\EditControls\DealHeaderControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Components\EditControls\PartnerBodyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Components\EditControls\PartnerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Components\EditControls\PartnerHeaderControl.cs">
       <SubType>UserControl</SubType>
     </Compile>

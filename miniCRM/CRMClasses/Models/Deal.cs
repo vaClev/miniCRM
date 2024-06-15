@@ -9,7 +9,7 @@ namespace CRMClasses.Models
     public class Deal: ICloneable
     {
         public int Id { set; get; }
-        public Partner? Partner { set; get; }
+        public Partner Partner { set; get; }
         public byte StageOfSale { set; get; }
         public string Description { set; get; }
         public int totalCost {  set; get; } 
@@ -23,7 +23,7 @@ namespace CRMClasses.Models
         {
             return $"{Id} {Description}";
         }
-
+      
         public object Clone()
         {
             Deal clone = new Deal();
