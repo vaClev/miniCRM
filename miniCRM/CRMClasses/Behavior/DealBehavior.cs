@@ -15,9 +15,9 @@ namespace CRMClasses.Behavior
         }
         public IEnumerable<Deal> GetDealsByPartner(Partner partner)
         {
-            return Repository.Deals.Where(d=>d.Partner.Equals(partner));
+            return Repository.Deals.Where(d => partner.Id == d.Partner.Id);
         }
-        public Deal? GetDeal(int Id)
+        public Deal? GetDeal(Guid Id)
         {
             return Repository.Deals.FirstOrDefault(p => p.Id == Id);
         }

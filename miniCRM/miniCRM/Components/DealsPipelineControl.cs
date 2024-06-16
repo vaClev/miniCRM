@@ -51,12 +51,17 @@ namespace miniCRM.Components
         //Кнопка создать новую сделку
         private void button1_Click(object sender, EventArgs e)
         {
-            var form = new Edit(new DealHeaderControl(), ActAdd);
+            var form = new Edit(new DealControl(), actionEdit: ActUpdate, actionCreate: ActAdd);
             form.Show();
         }
         void ActAdd(UserControl userControl)
         {
             DataAdder.ActAdd(userControl);
+            UpdateDeals();
+        }
+        void ActUpdate(UserControl userControl)
+        {
+            DataAdder.ActUpdate(userControl);
             UpdateDeals();
         }
     }

@@ -22,9 +22,10 @@ namespace miniCRM.Components.EditControls
         {
             this.isEdit = isEdit;
             InitializeComponent();
+
             this.partner = partner;
             partnerHeaderControl = new PartnerHeaderControl(this.partner);
-            if(isEdit) partnerHeaderControl.Set(this.partner);
+            if(isEdit) SetPartner(partner);
             InitializeHeader();
             InitializeBody();
         }
@@ -56,7 +57,8 @@ namespace miniCRM.Components.EditControls
         }
         public void SetPartner(Partner partner)
         {
-            partnerHeaderControl.Set(partner);
+            this.partner = (Partner)partner.Clone();
+            partnerHeaderControl.Set(this.partner);
             if (isEdit) 
             {
                 //также пробросить партнера и в списки сделок и контактов

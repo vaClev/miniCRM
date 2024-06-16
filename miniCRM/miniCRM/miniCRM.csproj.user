@@ -7,6 +7,12 @@
     <Compile Update="Components\DealCards\DealsColumn.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Components\EditControls\DealBodyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Components\EditControls\DealControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Components\EditControls\DealHeaderControl.cs">
       <SubType>UserControl</SubType>
     </Compile>

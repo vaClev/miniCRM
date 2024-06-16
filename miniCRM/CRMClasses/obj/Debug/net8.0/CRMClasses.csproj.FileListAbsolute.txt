@@ -21,3 +21,25 @@ C:\Users\StudentYandex\Desktop\miniCRM-main\miniCRM\CRMClasses\obj\Debug\net8.0\
 C:\Users\StudentYandex\Desktop\miniCRM-main\miniCRM\CRMClasses\obj\Debug\net8.0\refint\CRMClasses.dll
 C:\Users\StudentYandex\Desktop\miniCRM-main\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.pdb
 C:\Users\StudentYandex\Desktop\miniCRM-main\miniCRM\CRMClasses\obj\Debug\net8.0\ref\CRMClasses.dll
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\CRMClasses\bin\Debug\net8.0\CRMClasses.deps.json
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\CRMClasses\bin\Debug\net8.0\CRMClasses.dll
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\CRMClasses\bin\Debug\net8.0\CRMClasses.pdb
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.AssemblyInfoInputs.cache
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.AssemblyInfo.cs
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.csproj.CoreCompileInputs.cache
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.dll
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\CRMClasses\obj\Debug\net8.0\refint\CRMClasses.dll
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.pdb
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\CRMClasses\obj\Debug\net8.0\ref\CRMClasses.dll
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\CRMClasses\bin\Debug\net8.0\CRMClasses.deps.json
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\CRMClasses\bin\Debug\net8.0\CRMClasses.dll
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\CRMClasses\bin\Debug\net8.0\CRMClasses.pdb
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.AssemblyInfoInputs.cache
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.AssemblyInfo.cs
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.csproj.CoreCompileInputs.cache
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.dll
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\CRMClasses\obj\Debug\net8.0\refint\CRMClasses.dll
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.pdb
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\CRMClasses\obj\Debug\net8.0\ref\CRMClasses.dll

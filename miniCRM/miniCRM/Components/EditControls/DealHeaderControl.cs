@@ -15,20 +15,21 @@ namespace miniCRM.Components.EditControls
     public partial class DealHeaderControl : UserControl, IModelComponent, IEditWindowControl
     {
         Deal deal;
-        public DealHeaderControl()
+        public DealHeaderControl(Deal deal)
         {
-            deal = new Deal();
+            this.deal = deal;
             InitializeComponent();
             comboBox1.Items.AddRange(new PartnerBehavior().GetPartners().ToArray());
             comboBox2.Items.AddRange(StagesOfSale.stages);
         }
+        public DealHeaderControl() : this(new Deal()) { }
         public Deal GetDeal()
         {
             return deal;
         }
         public void SetDeal(Deal deal)
         {
-            this.deal = (Deal)deal.Clone();
+            this.deal = deal;
             textBox1.Text = deal.Id.ToString();
             textBox2.Text = deal.Description;
             textBox3.Text = deal.totalCost.ToString();
@@ -74,7 +75,19 @@ namespace miniCRM.Components.EditControls
             if (comboBox1.SelectedItem != null)
             {
                 this.deal.Partner = (Partner)comboBox1.SelectedItem;
+                MessageBox.Show(this.deal.Partner.Id.ToString());
             }
+        }
+
+        private void comboBox1_TextChanged(object sender, EventArgs e)
+        {
+            comboBox1.Items.Clear();
+            string searchingText=(string)comboBox1.Text?? ""; 
+            var newItems = new PartnerBehavior().GetPartners().Where(partner => partner.ToString().IndexOf(searchingText) >= 0).ToArray();
+            if(newItems.Length != 0)
+                comboBox1.Items.AddRange(newItems);
+            if(comboBox1.Text?.Length > 0)
+                comboBox1.Select(comboBox1.Text.Length , 0);
         }
 
         object IModelComponent.Get()
@@ -98,7 +111,19 @@ namespace miniCRM.Components.EditControls
 
         string IEditWindowControl.GetWindowName()
         {
-            throw new NotImplementedException();
+            return "Окно Сделки";
+        }
+        public void SelectPartner(Guid partnerID)
+        {
+            comboBox1.Items.Clear();
+            Partner? SelectedPartner = new PartnerBehavior().GetPartner(partnerID);
+            if(SelectedPartner!=null)
+            {
+                comboBox1.Items.Add(SelectedPartner);
+                comboBox1.SelectedIndex = 0;
+                return;
+            }
+            throw new ArgumentNullException("Контрагента с таким ID нет в репозитории");
         }
     }
 }

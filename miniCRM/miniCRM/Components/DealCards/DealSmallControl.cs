@@ -22,7 +22,7 @@ namespace miniCRM.Components.DealCards
         {
            label1.Text = deal.totalCost.ToString();
            label2.Text = deal.Partner?.ShortName ?? "";
-           label3.Text = deal.Description.ToString();
+           label3.Text = deal.Description?.ToString();
         }
     }
 }

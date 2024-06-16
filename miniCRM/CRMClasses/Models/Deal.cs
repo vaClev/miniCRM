@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,20 +9,21 @@ namespace CRMClasses.Models
 {
     public class Deal: ICloneable
     {
-        public int Id { set; get; }
+        public Guid Id { set; get; }
         public Partner Partner { set; get; }
         public byte StageOfSale { set; get; }
-        public string Description { set; get; }
-        public int totalCost {  set; get; } 
-        public Deal() 
+        public string? Description { set; get; }
+        public int totalCost {  set; get; }
+        public Deal()
         {
-            Description = "test";
-            totalCost = 100000;
+            Id = Guid.NewGuid();
+            Partner = new Partner();
+            StageOfSale = 0;
+            totalCost = 0;
         }
-
         public override string ToString()
         {
-            return $"{Id} {Description}";
+            return $"{Id} {Description} {totalCost}";
         }
       
         public object Clone()

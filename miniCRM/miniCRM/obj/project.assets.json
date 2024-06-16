@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\miniCRM.csproj",
+      "projectUniqueName": "C:\\Users\\Oleg Vasilev\\Desktop\\Новая папка\\miniCRM\\miniCRM\\miniCRM.csproj",
       "projectName": "miniCRM",
-      "projectPath": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\miniCRM.csproj",
+      "projectPath": "C:\\Users\\Oleg Vasilev\\Desktop\\Новая папка\\miniCRM\\miniCRM\\miniCRM.csproj",
       "packagesPath": "C:\\Users\\Oleg Vasilev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\obj\\",
+      "outputPath": "C:\\Users\\Oleg Vasilev\\Desktop\\Новая папка\\miniCRM\\miniCRM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Oleg Vasilev\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\CRMClasses\\CRMClasses.csproj": {
-              "projectPath": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\CRMClasses\\CRMClasses.csproj"
+            "C:\\Users\\Oleg Vasilev\\Desktop\\Новая папка\\miniCRM\\CRMClasses\\CRMClasses.csproj": {
+              "projectPath": "C:\\Users\\Oleg Vasilev\\Desktop\\Новая папка\\miniCRM\\CRMClasses\\CRMClasses.csproj"
             }
           }
         }

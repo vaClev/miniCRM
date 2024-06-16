@@ -79,6 +79,7 @@ namespace miniCRM.Components.EditControls
             comboBox1.Size = new Size(222, 23);
             comboBox1.TabIndex = 3;
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            comboBox1.TextUpdate += comboBox1_TextChanged;
             // 
             // label3
             // 
@@ -153,7 +154,7 @@ namespace miniCRM.Components.EditControls
             Controls.Add(textBox1);
             Controls.Add(label1);
             Name = "DealHeaderControl";
-            Size = new Size(1000, 150);
+            Size = new Size(1000, 200);
             ((System.ComponentModel.ISupportInitialize)partnerBehaviorBindingSource).EndInit();
             ResumeLayout(false);
             PerformLayout();

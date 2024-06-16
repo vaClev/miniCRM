@@ -13,9 +13,9 @@ namespace CRMClasses.Behavior
         {
             return Repository.Partners;
         }
-        public Partner? GetPartner(string partnerINN)
+        public Partner? GetPartner(Guid partnerID)
         {
-            return Repository.Partners.FirstOrDefault(p => p.INN.Equals(partnerINN));
+            return Repository.Partners.FirstOrDefault(p => p.Id==partnerID);
         }
         public void AddPartner(Partner partner)
         {
@@ -32,9 +32,9 @@ namespace CRMClasses.Behavior
         }
         public void UpdatePartner(Partner partner)
         {
-            if (Repository.Partners.Any(p => p.Id.Equals(partner.Id)))
+            if (Repository.Partners.Any(p => p.Id ==partner.Id))
             { 
-                var partnerToChange = Repository.Partners.First(p => p.Id.Equals(partner.Id));
+                var partnerToChange = Repository.Partners.First(p => p.Id ==partner.Id);
                 partnerToChange.ShortName = partner.ShortName;
                 partnerToChange.FullName = partner.FullName;
 

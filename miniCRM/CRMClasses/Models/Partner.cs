@@ -30,14 +30,6 @@ namespace CRMClasses.Models
 
             return clone;
         }
-        public override bool Equals(object? obj)
-        {
-            if (obj is Partner partner)
-            {
-                return INN.Equals(partner.INN);
-            }
-            throw new NotImplementedException("Попытка сравнения контрагента с другим типом объекта");
-        }
         public override string ToString()
         {
             return $"{ShortName} ИНН: {INN}";

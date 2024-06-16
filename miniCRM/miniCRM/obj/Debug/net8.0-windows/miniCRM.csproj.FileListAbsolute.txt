@@ -54,3 +54,67 @@ C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.
 C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.DealHeaderControl.resources
 C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.PartnerControl.resources
 C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.PartnerBodyControl.resources
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\bin\Debug\net8.0-windows\miniCRM.exe
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\bin\Debug\net8.0-windows\miniCRM.deps.json
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\bin\Debug\net8.0-windows\miniCRM.runtimeconfig.json
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\bin\Debug\net8.0-windows\miniCRM.dll
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\bin\Debug\net8.0-windows\miniCRM.pdb
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\bin\Debug\net8.0-windows\CRMClasses.dll
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\bin\Debug\net8.0-windows\CRMClasses.pdb
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.csproj.AssemblyReference.cache
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.DealCards.DealsColumn.resources
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.DealCards.DealSmallControl.resources
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.DealsPipelineControl.resources
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.DealHeaderControl.resources
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.PartnerBodyControl.resources
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.PartnerControl.resources
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.PartnerHeaderControl.resources
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.PartnersListControl.resources
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.ShowDaylyReportControl.resources
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.CRMWindow.resources
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\WinFormsApp1.Edit.resources
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.csproj.GenerateResource.cache
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.AssemblyInfoInputs.cache
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.AssemblyInfo.cs
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.csproj.CoreCompileInputs.cache
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.csproj.CopyComplete
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.dll
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\refint\miniCRM.dll
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.pdb
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.genruntimeconfig.cache
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\ref\miniCRM.dll
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.DealControl.resources
+C:\Users\StudentApple.TOP.003\Desktop\miniCRM-main\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.DealBodyControl.resources
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\bin\Debug\net8.0-windows\miniCRM.exe
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\bin\Debug\net8.0-windows\miniCRM.deps.json
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\bin\Debug\net8.0-windows\miniCRM.runtimeconfig.json
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\bin\Debug\net8.0-windows\miniCRM.dll
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\bin\Debug\net8.0-windows\miniCRM.pdb
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\bin\Debug\net8.0-windows\CRMClasses.dll
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\bin\Debug\net8.0-windows\CRMClasses.pdb
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.csproj.AssemblyReference.cache
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.DealCards.DealsColumn.resources
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.DealCards.DealSmallControl.resources
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.DealsPipelineControl.resources
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.DealBodyControl.resources
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.DealControl.resources
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.DealHeaderControl.resources
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.PartnerBodyControl.resources
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.PartnerControl.resources
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.PartnerHeaderControl.resources
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.PartnersListControl.resources
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.ShowDaylyReportControl.resources
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.CRMWindow.resources
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\WinFormsApp1.Edit.resources
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.csproj.GenerateResource.cache
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.AssemblyInfoInputs.cache
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.AssemblyInfo.cs
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.csproj.CoreCompileInputs.cache
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.csproj.Up2Date
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.dll
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\refint\miniCRM.dll
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.pdb
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.genruntimeconfig.cache
+C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\ref\miniCRM.dll

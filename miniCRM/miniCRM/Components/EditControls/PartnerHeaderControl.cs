@@ -27,7 +27,7 @@ namespace miniCRM.Components.EditControls
         }
         public void SetPartner(Partner partner)
         {
-            //this.partner =(Partner) partner.Clone();
+            this.partner =partner;
             textBox1.Text = partner.FullName;
             textBox2.Text = partner.ShortName;
             textBox3.Text = partner.INN;
