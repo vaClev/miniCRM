@@ -12,22 +12,24 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace miniCRM.Components.EditControls
 {
-    public partial class PartnerControl : UserControl, IModelComponent
+    public partial class PartnerControl : UserControl, IModelComponent, IEditWindowControl
     {
         Partner partner;
         PartnerHeaderControl partnerHeaderControl;
         PartnerBodyControl? partnerBodyControl;
         bool isEdit;
-        public PartnerControl(bool isEdit=false)
+        public PartnerControl(Partner partner, bool isEdit)
         {
             this.isEdit = isEdit;
             InitializeComponent();
-            partner = new Partner();
-            partnerHeaderControl = new PartnerHeaderControl(partner);
-            
+            this.partner = partner;
+            partnerHeaderControl = new PartnerHeaderControl(this.partner);
+            if(isEdit) partnerHeaderControl.Set(this.partner);
             InitializeHeader();
             InitializeBody();
         }
+        public PartnerControl() : this(new Partner(), false) { }
+
         void InitializeHeader()
         {
             partnerHeaderControl.Location = new Point(0, 0);
@@ -40,7 +42,7 @@ namespace miniCRM.Components.EditControls
         void InitializeBody()
         {
             if (!isEdit) return;
-            partnerBodyControl = new PartnerBodyControl(partner);
+            partnerBodyControl = new PartnerBodyControl(this.partner);
             partnerBodyControl.Location = new Point(0, 150);
             partnerBodyControl.Name = "partnerBodyControl";
             partnerBodyControl.Size = new Size(574, 250);
@@ -54,7 +56,7 @@ namespace miniCRM.Components.EditControls
         }
         public void SetPartner(Partner partner)
         {
-            partnerHeaderControl.SetPartner(partner);
+            partnerHeaderControl.Set(partner);
             if (isEdit) 
             {
                 //также пробросить партнера и в списки сделок и контактов
@@ -75,10 +77,15 @@ namespace miniCRM.Components.EditControls
             throw new NotImplementedException();
         }
 
-        void IModelComponent.Edit()
+        void IEditWindowControl.Edit()
         {
             isEdit = true;
             InitializeBody();
+        }
+
+        string IEditWindowControl.GetWindowName()
+        {
+            return isEdit ? partner.FullName : "Cоздание нового контрагента";
         }
     }
 }

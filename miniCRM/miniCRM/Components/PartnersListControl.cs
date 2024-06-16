@@ -70,5 +70,16 @@ namespace miniCRM.Components
                 return;
             }
         }
+
+
+        //нажатие кнопки редактировать контрагента
+        private void listBox1_DoubleClick(object sender, EventArgs e)
+        {
+            Partner? selectedPartner = (Partner?)listBox1.SelectedItem;
+            if(selectedPartner == null) return;
+
+            var form = new Edit(new PartnerControl(selectedPartner, isEdit: true), actionEdit: ActUpdate);
+            form.Show();
+        }
     }
 }

@@ -22,7 +22,8 @@ namespace WinFormsApp1
         {
             InitializeComponent();
             var size = new Size(userControl.Width + 10,
-                                userControl.Height + button1.Size.Height + 30);
+                                userControl.Height + button1.Size.Height + button2.Size.Height + 70);
+            Text = (userControl as IEditWindowControl)?.GetWindowName();
             Size = size;
             Controls.Add(userControl);
             this.action = actionEdit;
@@ -55,7 +56,7 @@ namespace WinFormsApp1
             {
                 actionCreate(userControl);
                 //как то убедиться что создание успешно прошло ----- пока просто с певого раза
-                (userControl as IModelComponent)?.Edit();
+                (userControl as IEditWindowControl)?.Edit();
                 isEdit = true;
             }
         }

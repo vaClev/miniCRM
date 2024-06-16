@@ -44,6 +44,7 @@
             listBox1.Size = new Size(926, 139);
             listBox1.Sorted = true;
             listBox1.TabIndex = 0;
+            listBox1.DoubleClick += listBox1_DoubleClick;
             // 
             // button1
             // 
@@ -81,7 +82,7 @@
             label1.TabIndex = 3;
             label1.Text = "Список контрагентов";
             // 
-            // ShowPartnersControl
+            // PartnersListControl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -90,7 +91,7 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(listBox1);
-            Name = "ShowPartnersControl";
+            Name = "PartnersListControl";
             Size = new Size(929, 448);
             ResumeLayout(false);
             PerformLayout();

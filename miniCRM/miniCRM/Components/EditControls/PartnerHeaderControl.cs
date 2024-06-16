@@ -27,10 +27,11 @@ namespace miniCRM.Components.EditControls
         }
         public void SetPartner(Partner partner)
         {
-            this.partner = (Partner)partner.Clone();
+            //this.partner =(Partner) partner.Clone();
             textBox1.Text = partner.FullName;
             textBox2.Text = partner.ShortName;
             textBox3.Text = partner.INN;
+            label5.Text="ID:"+partner.Id.ToString();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -57,24 +58,17 @@ namespace miniCRM.Components.EditControls
             }
         }
 
-        object IModelComponent.Get()
+        public object Get()
         {
             return GetPartner();
         }
-        void IModelComponent.Set(object obj)
+        public void Set(object obj)
         {
             if (obj is Partner partner)
             {
                 SetPartner(partner);
                 return;
             }
-            throw new NotImplementedException();
-        }
-
-
-        //Ввести новый интерфейс редактируемое окно и вынести Edit в него
-        void IModelComponent.Edit()
-        {
             throw new NotImplementedException();
         }
     }

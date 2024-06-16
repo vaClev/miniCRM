@@ -12,7 +12,7 @@ using CRMClasses.Behavior;
 
 namespace miniCRM.Components.EditControls
 {
-    public partial class DealHeaderControl : UserControl, IModelComponent
+    public partial class DealHeaderControl : UserControl, IModelComponent, IEditWindowControl
     {
         Deal deal;
         public DealHeaderControl()
@@ -91,7 +91,12 @@ namespace miniCRM.Components.EditControls
             throw new NotImplementedException();
         }
 
-        void IModelComponent.Edit()
+        void IEditWindowControl.Edit()
+        {
+            throw new NotImplementedException();
+        }
+
+        string IEditWindowControl.GetWindowName()
         {
             throw new NotImplementedException();
         }

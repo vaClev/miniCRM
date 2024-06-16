@@ -8,7 +8,7 @@ namespace CRMClasses.Models
 {
     public class Partner: ICloneable
     {
-        public Guid Id { get; }
+        public Guid Id { get; set; }
         public string FullName { get; set; }
         public string ShortName { get; set; }
         public string INN { get; set; }
@@ -26,6 +26,7 @@ namespace CRMClasses.Models
             clone.FullName = this.FullName;
             clone.ShortName = this.ShortName;
             clone.INN = this.INN;
+            clone.Id = this.Id;
 
             return clone;
         }

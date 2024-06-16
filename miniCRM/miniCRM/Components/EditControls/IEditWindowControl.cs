@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace miniCRM.Components.EditControls
 {
-    public interface IModelComponent
+    internal interface IEditWindowControl
     {
-        void Set(object obj);
-        object Get();
+        void Edit();
+        string GetWindowName();
     }
 }

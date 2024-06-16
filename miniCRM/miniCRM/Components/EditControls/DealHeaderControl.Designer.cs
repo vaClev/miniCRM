@@ -141,6 +141,7 @@ namespace miniCRM.Components.EditControls
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSize = true;
             Controls.Add(textBox3);
             Controls.Add(label5);
             Controls.Add(textBox2);
@@ -152,7 +153,7 @@ namespace miniCRM.Components.EditControls
             Controls.Add(textBox1);
             Controls.Add(label1);
             Name = "DealHeaderControl";
-            Size = new Size(1000, 149);
+            Size = new Size(1000, 150);
             ((System.ComponentModel.ISupportInitialize)partnerBehaviorBindingSource).EndInit();
             ResumeLayout(false);
             PerformLayout();

@@ -33,7 +33,7 @@ namespace CRMClasses.Behavior
         public void UpdatePartner(Partner partner)
         {
             if (Repository.Partners.Any(p => p.Id.Equals(partner.Id)))
-            {
+            { 
                 var partnerToChange = Repository.Partners.First(p => p.Id.Equals(partner.Id));
                 partnerToChange.ShortName = partner.ShortName;
                 partnerToChange.FullName = partner.FullName;
