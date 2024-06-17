@@ -54,5 +54,6 @@ namespace miniCRM.Components.EditControls
             updateDealsList();
         }
 
+        
     }
 }

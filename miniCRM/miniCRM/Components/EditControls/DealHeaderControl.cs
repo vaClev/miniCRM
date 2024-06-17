@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CRMClasses.Models;
 using CRMClasses.Behavior;
+using miniCRM.Patterns;
 
 namespace miniCRM.Components.EditControls
 {
@@ -75,7 +76,7 @@ namespace miniCRM.Components.EditControls
             if (comboBox1.SelectedItem != null)
             {
                 this.deal.Partner = (Partner)comboBox1.SelectedItem;
-                MessageBox.Show(this.deal.Partner.Id.ToString());
+                //MessageBox.Show(this.deal.Partner.Id.ToString());
             }
         }
 
@@ -115,15 +116,7 @@ namespace miniCRM.Components.EditControls
         }
         public void SelectPartner(Guid partnerID)
         {
-            comboBox1.Items.Clear();
-            Partner? SelectedPartner = new PartnerBehavior().GetPartner(partnerID);
-            if(SelectedPartner!=null)
-            {
-                comboBox1.Items.Add(SelectedPartner);
-                comboBox1.SelectedIndex = 0;
-                return;
-            }
-            throw new ArgumentNullException("Контрагента с таким ID нет в репозитории");
+            ComboBoxItemsSetter.SelectPartner(partnerID, comboBox1);
         }
     }
 }

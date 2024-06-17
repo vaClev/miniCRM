@@ -15,9 +15,9 @@ namespace CRMClasses.Behavior
         }
         public IEnumerable<Contact> GetContactsByDeal(Deal deal)
         {
-            return Repository.Contacts.Where<Contact>(c=>c.Deal==deal);
+            return Repository.Contacts.Where<Contact>(c=>c.Deal?.Id==deal.Id);
         }
-        public Contact? GetContact(int Id)
+        public Contact? GetContact(Guid Id)
         {
             return Repository.Contacts.FirstOrDefault(p => p.Id == Id);
         }
@@ -34,11 +34,12 @@ namespace CRMClasses.Behavior
             if (Repository.Contacts.Any(p => p.Id == contact.Id))
             {
                 var ContactToChange = Repository.Contacts.First(p => p.Id == contact.Id);
-                ContactToChange.Parntner = contact.Parntner;
+                ContactToChange.Partner = contact.Partner;
                 ContactToChange.Deal = contact.Deal;
                 ContactToChange.GoalDescription = contact.GoalDescription;
                 ContactToChange.ResultDescription = contact.ResultDescription;
                 ContactToChange.Date = contact.Date;
+                ContactToChange.TypeOfContact = contact.TypeOfContact;
                
                 return;
             }

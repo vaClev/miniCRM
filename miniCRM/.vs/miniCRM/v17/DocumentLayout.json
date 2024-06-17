@@ -1,38 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Oleg Vasilev\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\miniCRM\\",
+  "WorkspaceRootPath": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|c:\\users\\oleg vasilev\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\minicrm\\crmclasses\\models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|solutionrelative:crmclasses\\models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|c:\\users\\oleg vasilev\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\minicrm\\minicrm\\components\\editcontrols\\dealheadercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|c:\\users\\oleg vasilev\\desktop\\c#\\winform\\minicrm\\minicrm\\minicrm\\components\\editcontrols\\dealheadercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|solutionrelative:minicrm\\components\\editcontrols\\dealheadercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|c:\\users\\oleg vasilev\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\minicrm\\minicrm\\components\\editcontrols\\dealheadercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|c:\\users\\oleg vasilev\\desktop\\c#\\winform\\minicrm\\minicrm\\minicrm\\components\\editcontrols\\dealheadercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|solutionrelative:minicrm\\components\\editcontrols\\dealheadercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|c:\\users\\oleg vasilev\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\minicrm\\minicrm\\components\\editcontrols\\partnerbodycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|solutionrelative:minicrm\\components\\editcontrols\\partnerbodycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|c:\\users\\oleg vasilev\\desktop\\c#\\winform\\minicrm\\minicrm\\minicrm\\components\\editcontrols\\contactcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|solutionrelative:minicrm\\components\\editcontrols\\contactcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|c:\\users\\oleg vasilev\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\minicrm\\minicrm\\components\\editcontrols\\dealcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|solutionrelative:minicrm\\components\\editcontrols\\dealcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|c:\\users\\oleg vasilev\\desktop\\c#\\winform\\minicrm\\minicrm\\minicrm\\patterns\\comboboxitemssetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|solutionrelative:minicrm\\patterns\\comboboxitemssetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|C:\\Users\\Oleg Vasilev\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\miniCRM\\crmclasses\\behavior\\partnerbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|solutionrelative:crmclasses\\behavior\\partnerbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|c:\\users\\oleg vasilev\\desktop\\c#\\winform\\minicrm\\minicrm\\minicrm\\components\\editcontrols\\dealbodycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|solutionrelative:minicrm\\components\\editcontrols\\dealbodycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|c:\\users\\oleg vasilev\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\minicrm\\minicrm\\components\\editcontrols\\partnercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|solutionrelative:minicrm\\components\\editcontrols\\partnercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|c:\\users\\oleg vasilev\\desktop\\c#\\winform\\minicrm\\minicrm\\minicrm\\components\\editcontrols\\dealbodycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|solutionrelative:minicrm\\components\\editcontrols\\dealbodycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|c:\\users\\oleg vasilev\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\minicrm\\crmclasses\\behavior\\dealbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|solutionrelative:crmclasses\\behavior\\dealbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|c:\\users\\oleg vasilev\\desktop\\c#\\winform\\minicrm\\minicrm\\crmclasses\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|solutionrelative:crmclasses\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|c:\\users\\oleg vasilev\\desktop\\c#\\winform\\minicrm\\minicrm\\crmclasses\\behavior\\contactbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|solutionrelative:crmclasses\\behavior\\contactbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|c:\\users\\oleg vasilev\\desktop\\c#\\winform\\minicrm\\minicrm\\minicrm\\components\\editcontrols\\contactcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|solutionrelative:minicrm\\components\\editcontrols\\contactcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,8 +45,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 227,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 330,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,105 +62,116 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\miniCRM\\CRMClasses\\Models\\Repository.cs",
-              "RelativeDocumentMoniker": "CRMClasses\\Models\\Repository.cs",
-              "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\miniCRM\\CRMClasses\\Models\\Repository.cs",
-              "RelativeToolTip": "CRMClasses\\Models\\Repository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T17:52:51.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DealHeaderControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\miniCRM\\miniCRM\\Components\\EditControls\\DealHeaderControl.cs",
-              "RelativeDocumentMoniker": "miniCRM\\Components\\EditControls\\DealHeaderControl.cs",
-              "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\miniCRM\\miniCRM\\Components\\EditControls\\DealHeaderControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "RelativeToolTip": "miniCRM\\Components\\EditControls\\DealHeaderControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T17:52:17.509Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PartnerBodyControl.cs",
-              "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\miniCRM\\miniCRM\\Components\\EditControls\\PartnerBodyControl.cs",
-              "RelativeDocumentMoniker": "miniCRM\\Components\\EditControls\\PartnerBodyControl.cs",
-              "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\miniCRM\\miniCRM\\Components\\EditControls\\PartnerBodyControl.cs",
-              "RelativeToolTip": "miniCRM\\Components\\EditControls\\PartnerBodyControl.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAWwBwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T17:49:14.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DealHeaderControl.cs",
-              "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\miniCRM\\miniCRM\\Components\\EditControls\\DealHeaderControl.cs",
-              "RelativeDocumentMoniker": "miniCRM\\Components\\EditControls\\DealHeaderControl.cs",
-              "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\miniCRM\\miniCRM\\Components\\EditControls\\DealHeaderControl.cs",
-              "RelativeToolTip": "miniCRM\\Components\\EditControls\\DealHeaderControl.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAlwFsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T17:44:24.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DealBehavior.cs",
-              "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\miniCRM\\CRMClasses\\Behavior\\DealBehavior.cs",
-              "RelativeDocumentMoniker": "CRMClasses\\Behavior\\DealBehavior.cs",
-              "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\miniCRM\\CRMClasses\\Behavior\\DealBehavior.cs",
-              "RelativeToolTip": "CRMClasses\\Behavior\\DealBehavior.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T17:39:33.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PartnerControl.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\miniCRM\\miniCRM\\Components\\EditControls\\PartnerControl.Designer.cs",
-              "RelativeDocumentMoniker": "miniCRM\\Components\\EditControls\\PartnerControl.Designer.cs",
-              "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\miniCRM\\miniCRM\\Components\\EditControls\\PartnerControl.Designer.cs",
-              "RelativeToolTip": "miniCRM\\Components\\EditControls\\PartnerControl.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T17:28:28.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DealControl.cs",
-              "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\miniCRM\\miniCRM\\Components\\EditControls\\DealControl.cs",
-              "RelativeDocumentMoniker": "miniCRM\\Components\\EditControls\\DealControl.cs",
-              "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\miniCRM\\miniCRM\\Components\\EditControls\\DealControl.cs",
-              "RelativeToolTip": "miniCRM\\Components\\EditControls\\DealControl.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAawCMAAAAmAAAA",
+              "Title": "DealBodyControl.cs",
+              "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\Components\\EditControls\\DealBodyControl.cs",
+              "RelativeDocumentMoniker": "miniCRM\\Components\\EditControls\\DealBodyControl.cs",
+              "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\Components\\EditControls\\DealBodyControl.cs",
+              "RelativeToolTip": "miniCRM\\Components\\EditControls\\DealBodyControl.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAEwB0AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T17:26:39.16Z",
+              "WhenOpened": "2024-06-17T20:25:01.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PartnerBehavior.cs",
-              "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\miniCRM\\CRMClasses\\Behavior\\PartnerBehavior.cs",
-              "RelativeDocumentMoniker": "CRMClasses\\Behavior\\PartnerBehavior.cs",
-              "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\miniCRM\\CRMClasses\\Behavior\\PartnerBehavior.cs",
-              "RelativeToolTip": "CRMClasses\\Behavior\\PartnerBehavior.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABMAAAA",
+              "Title": "DealBodyControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\Components\\EditControls\\DealBodyControl.cs",
+              "RelativeDocumentMoniker": "miniCRM\\Components\\EditControls\\DealBodyControl.cs",
+              "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\Components\\EditControls\\DealBodyControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "miniCRM\\Components\\EditControls\\DealBodyControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T10:17:36.46Z",
+              "WhenOpened": "2024-06-17T20:24:54.731Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\CRMClasses\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "CRMClasses\\Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\CRMClasses\\Models\\Contact.cs",
+              "RelativeToolTip": "CRMClasses\\Models\\Contact.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T20:24:12.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContactBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\CRMClasses\\Behavior\\ContactBehavior.cs",
+              "RelativeDocumentMoniker": "CRMClasses\\Behavior\\ContactBehavior.cs",
+              "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\CRMClasses\\Behavior\\ContactBehavior.cs",
+              "RelativeToolTip": "CRMClasses\\Behavior\\ContactBehavior.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T20:24:05.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DealHeaderControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\Components\\EditControls\\DealHeaderControl.cs",
+              "RelativeDocumentMoniker": "miniCRM\\Components\\EditControls\\DealHeaderControl.cs",
+              "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\Components\\EditControls\\DealHeaderControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "miniCRM\\Components\\EditControls\\DealHeaderControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T20:21:31.869Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ComboBoxItemsSetter.cs",
+              "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\Patterns\\ComboBoxItemsSetter.cs",
+              "RelativeDocumentMoniker": "miniCRM\\Patterns\\ComboBoxItemsSetter.cs",
+              "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\Patterns\\ComboBoxItemsSetter.cs",
+              "RelativeToolTip": "miniCRM\\Patterns\\ComboBoxItemsSetter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T20:13:19.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DealHeaderControl.cs",
+              "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\Components\\EditControls\\DealHeaderControl.cs",
+              "RelativeDocumentMoniker": "miniCRM\\Components\\EditControls\\DealHeaderControl.cs",
+              "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\Components\\EditControls\\DealHeaderControl.cs",
+              "RelativeToolTip": "miniCRM\\Components\\EditControls\\DealHeaderControl.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAASwFAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T20:08:28.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContactControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\Components\\EditControls\\ContactControl.cs",
+              "RelativeDocumentMoniker": "miniCRM\\Components\\EditControls\\ContactControl.cs",
+              "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\Components\\EditControls\\ContactControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "miniCRM\\Components\\EditControls\\ContactControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T20:07:42.688Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactControl.cs",
+              "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\Components\\EditControls\\ContactControl.cs",
+              "RelativeDocumentMoniker": "miniCRM\\Components\\EditControls\\ContactControl.cs",
+              "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\Components\\EditControls\\ContactControl.cs",
+              "RelativeToolTip": "miniCRM\\Components\\EditControls\\ContactControl.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAwEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T18:47:31.666Z",
               "EditorCaption": ""
             }
           ]

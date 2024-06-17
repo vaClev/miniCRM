@@ -59,6 +59,7 @@
             button1.TabIndex = 2;
             button1.Text = "Новый контакт";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // DealBodyControl
             // 

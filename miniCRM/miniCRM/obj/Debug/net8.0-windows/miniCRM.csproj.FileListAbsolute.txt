@@ -118,3 +118,6 @@ C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\ne
 C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.pdb
 C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.genruntimeconfig.cache
 C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\miniCRM\obj\Debug\net8.0-windows\ref\miniCRM.dll
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.ContactControl.resources
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.DealBodyControl.resources
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\miniCRM\obj\Debug\net8.0-windows\miniCRM.Components.EditControls.DealControl.resources
