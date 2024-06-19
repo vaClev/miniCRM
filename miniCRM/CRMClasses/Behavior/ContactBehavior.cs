@@ -15,7 +15,11 @@ namespace CRMClasses.Behavior
         }
         public IEnumerable<Contact> GetContactsByDeal(Deal deal)
         {
-            return Repository.Contacts.Where<Contact>(c=>c.Deal?.Id==deal.Id);
+            return Repository.Contacts.Where<Contact>(c=>c.Deal?.Id==deal.Id); //проверить c null сделками
+        }
+        public IEnumerable<Contact> GetContactsByPartner(Partner partner)
+        {
+            return Repository.Contacts.Where<Contact>(c => c.Partner.Id == partner.Id);
         }
         public Contact? GetContact(Guid Id)
         {

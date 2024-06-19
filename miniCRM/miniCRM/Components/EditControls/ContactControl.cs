@@ -32,6 +32,10 @@ namespace miniCRM.Components.EditControls
             ComboBoxItemsSetter.SelectPartner(deal.Partner.Id, comboBox1);
             ComboBoxItemsSetter.SelectDeal(deal.Id, comboBox2);
         }
+        public ContactControl(Partner partner) : this()
+        {
+            ComboBoxItemsSetter.SelectPartner(partner.Id, comboBox1);
+        }
 
 
         void initializeComboBoxItems()

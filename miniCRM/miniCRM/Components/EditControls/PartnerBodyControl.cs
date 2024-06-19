@@ -22,27 +22,25 @@ namespace miniCRM.Components.EditControls
             InitializeComponent();
             this.partner = partner;
             updateDealsList();
-            updateContactsList();
+            UpdateContactsListbox();
         }
-        private void updateContactsList()
+
+
+
+        //Лучше это выделить в отдельный компонент
+        //Создание новой сделки из диалога контрагента
+        
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            var form = new Edit(new DealControl(partner), actionEdit: ActUpdateDeal, actionCreate: ActAddDeal);
+            form.Show();
         }
-
         void updateDealsList()
         {
             listBox1.Items.Clear();
             DealBehavior beh = new DealBehavior();
             listBox1.Items.AddRange(beh.GetDealsByPartner(partner).ToArray());
         }
-
-        //Создание новой сделки из диалога контрагента
-        private void button1_Click(object sender, EventArgs e)
-        {
-            var form = new Edit(new DealControl(partner), actionEdit: ActUpdateDeal, actionCreate: ActAddDeal);
-            form.Show();
-        }
-
         void ActAddDeal(UserControl userControl)
         {
             DataAdder.ActAdd(userControl);
@@ -54,6 +52,33 @@ namespace miniCRM.Components.EditControls
             updateDealsList();
         }
 
-        
+      
+
+
+
+        //Лучше это выделить в отдельный компонент
+        //создание нового контакта в карточке сделки
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var form = new Edit(new ContactControl(partner), actionEdit: ActUpdate, actionCreate: ActAdd);
+            form.Show();
+        }
+        private void UpdateContactsListbox()
+        {
+            var behavePartners = new ContactBehavior();
+            listBox2.Items.Clear();
+            listBox2.Items.AddRange(behavePartners.GetContactsByPartner(partner).ToArray());
+        }
+
+        void ActAdd(UserControl userControl)
+        {
+            DataAdder.ActAdd(userControl);
+            UpdateContactsListbox();
+        }
+        void ActUpdate(UserControl userControl)
+        {
+            DataAdder.ActUpdate(userControl);
+            UpdateContactsListbox();
+        }
     }
 }

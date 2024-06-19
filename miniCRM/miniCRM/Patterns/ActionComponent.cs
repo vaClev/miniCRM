@@ -27,9 +27,6 @@ namespace miniCRM.Patterns
                 case DealControl:
                     return new BehaviorComponentDeal();
 
-                case DealHeaderControl:
-                    return new BehaviorComponentDeal();
-
                 case ContactControl:
                     return new BehaviorComponentContact();
 

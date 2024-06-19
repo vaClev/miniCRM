@@ -6,16 +6,29 @@ using System.Threading.Tasks;
 
 namespace CRMClasses.Models
 {
-    
-    public class Contact: ICloneable
+
+    public class Contact : ICloneable
     {
         public Guid Id { get; set; }
-        public Partner Partner { get; set;}
-        public Deal? Deal { get; set;}
-        public byte TypeOfContact {  get; set; }
-        public string? GoalDescription {  get; set; }
-        public string? ResultDescription {  get; set; }
+        public Partner Partner { get; set; }
+        public Deal? Deal { get; set; }
+        public byte TypeOfContact { get; set; }
+        public string? GoalDescription { get; set; }
+        public string? ResultDescription { get; set; }
         public DateTime Date { get; set; }
+
+        public Contact()
+        {
+            this.Id = Guid.NewGuid();
+            Partner = new Partner();
+            Deal = null;
+            TypeOfContact = 0;
+            GoalDescription = null;
+            ResultDescription = null;
+            Date = DateTime.Now;
+        }
+
+
 
         public object Clone()
         {
