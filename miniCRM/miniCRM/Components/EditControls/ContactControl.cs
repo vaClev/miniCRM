@@ -35,6 +35,7 @@ namespace miniCRM.Components.EditControls
         public ContactControl(Partner partner) : this()
         {
             ComboBoxItemsSetter.SelectPartner(partner.Id, comboBox1);
+            ComboBoxItemsSetter.SelectDealsByPartner(partner, comboBox2);
         }
 
 
@@ -42,7 +43,7 @@ namespace miniCRM.Components.EditControls
         {
             comboBox1.Items.AddRange(new PartnerBehavior().GetPartners().ToArray());
             comboBox2.Items.AddRange(new DealBehavior().GetDeals().ToArray());
-            comboBox3.Items.AddRange(TypesOfContact.types);
+            comboBox3.Items.AddRange(TypesOfContact.Types);
             comboBox3.SelectedIndex = 0;
         }
         void SetContact(Contact contact)
@@ -123,7 +124,7 @@ namespace miniCRM.Components.EditControls
         }
         string IEditWindowControl.GetWindowName()
         {
-            return isEdit ? $"{TypesOfContact.types[this.contact.TypeOfContact]} {contact.Partner.ShortName}" : "Новый контакт";
+            return isEdit ? $"{TypesOfContact.Types[this.contact.TypeOfContact]} {contact.Partner.ShortName}" : "Новый контакт";
         }
 
     }

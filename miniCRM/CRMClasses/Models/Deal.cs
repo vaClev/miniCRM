@@ -23,7 +23,7 @@ namespace CRMClasses.Models
         }
         public override string ToString()
         {
-            return $"{Id} {Description} {totalCost}";
+            return $"{StagesOfSale.Stages[StageOfSale]} {Description} {totalCost}";
         }
       
         public object Clone()
@@ -41,7 +41,7 @@ namespace CRMClasses.Models
 
     public static class StagesOfSale
     {
-        public static string[] stages = [
+        public static string[] Stages = [
             "Вывлен интерес", 
             "Запланирована встреча",
             "Подготовка коммерческого предложения",

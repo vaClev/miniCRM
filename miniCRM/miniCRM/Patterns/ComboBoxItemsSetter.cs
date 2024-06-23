@@ -34,6 +34,16 @@ namespace miniCRM.Patterns
             }
             throw new ArgumentNullException("Сделки с таким ID нет в репозитории");
         }
+        public static void SelectDealsByPartner(Partner partner, ComboBox comboBox)
+        {
+            comboBox.Items.Clear();
+            Deal[] Deals = new DealBehavior().GetDealsByPartner(partner).ToArray();
+            if (Deals.Length != 0)
+            {
+                comboBox.Items.AddRange(Deals);
+                return;
+            }
+        }
 
     }
 }

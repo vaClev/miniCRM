@@ -16,6 +16,7 @@ namespace CRMClasses.Models
         public string? GoalDescription { get; set; }
         public string? ResultDescription { get; set; }
         public DateTime Date { get; set; }
+        bool IsCompleted { get; set; }
 
         public Contact()
         {
@@ -26,6 +27,7 @@ namespace CRMClasses.Models
             GoalDescription = null;
             ResultDescription = null;
             Date = DateTime.Now;
+            IsCompleted = false;
         }
 
 
@@ -40,23 +42,25 @@ namespace CRMClasses.Models
             clone.GoalDescription = this.GoalDescription;
             clone.ResultDescription = this.ResultDescription;
             clone.Date = this.Date;
+            clone.IsCompleted = this.IsCompleted;
             return clone;
         }
 
         public override string ToString()
         {
-            return $"{Date.ToShortDateString()} {TypesOfContact.types[TypeOfContact]}";
+            return $"{Date.ToShortDateString()} {TypesOfContact.Types[TypeOfContact]} {TypesOfContact.Statuses[IsCompleted? 0 : 1]}";
         }
     }
 
     public static class TypesOfContact
     {
-        public static string[] types = [
+        public  static string[] Types = [
             "Телефонный звонок",
             "Личная встреча",
             "Видеовстреча",
             "Переписка",
             "Оффициальное письмо"
         ];
+        public static string[] Statuses = ["Завершен", "Запланирован"];
     }
 }

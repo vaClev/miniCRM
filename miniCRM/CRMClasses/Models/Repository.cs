@@ -20,10 +20,11 @@ namespace CRMClasses.Models
             {
                 Deal testDeal = new Deal();
                 testDeal.Partner = new Partner();
-                testDeal.Partner.ShortName = "TestPartner";
+                testDeal.Partner.ShortName = "TestPartner"+$"{i}";
                 testDeal.Partner.INN = "52156" + rnd.Next(1000).ToString();
                 testDeal.StageOfSale = (byte)rnd.Next(0, 8);
-                //Deals.Add(testDeal);
+                testDeal.totalCost = rnd.Next(100, 380)*1000;
+                Deals.Add(testDeal);
                 Partners.Add(testDeal.Partner);
             }
         }

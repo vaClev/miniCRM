@@ -21,7 +21,7 @@ namespace miniCRM.Components.EditControls
             this.deal = deal;
             InitializeComponent();
             comboBox1.Items.AddRange(new PartnerBehavior().GetPartners().ToArray());
-            comboBox2.Items.AddRange(StagesOfSale.stages);
+            comboBox2.Items.AddRange(StagesOfSale.Stages);
         }
         public DealHeaderControl() : this(new Deal()) { }
         public Deal GetDeal()

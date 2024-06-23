@@ -22,9 +22,9 @@ namespace miniCRM.Components
         DealColumnsContainer dealColumnsContainer;
         public DealsPipelineControl(Size parentCompSize)
         {
-            dealColumnsContainer = new DealColumnsContainer(StagesOfSale.stages.Length);
+            dealColumnsContainer = new DealColumnsContainer(StagesOfSale.Stages.Length);
             InitializeComponent();
-            tableLayoutPanel1.ColumnCount = StagesOfSale.stages.Length;
+            tableLayoutPanel1.ColumnCount = StagesOfSale.Stages.Length;
             Size = parentCompSize;
             UpdateDeals();
         }
