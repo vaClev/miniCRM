@@ -48,14 +48,13 @@ namespace miniCRM.Components.EditControls
             UpdateContactsListbox();
         }
 
-      /*  //нажатие кнопки открыть контакт
         private void listBox1_DoubleClick(object sender, EventArgs e)
         {
-            Contact? selectedPartner = (Contact?)listBox1.SelectedItem;
-            if (selectedPartner == null) return;
+            Contact? selectedContact = (Contact?)listBox1.SelectedItem;
+            if (selectedContact == null) return;
 
-            var form = new Edit(new PartnerControl(selectedPartner, isEdit: true), actionEdit: ActUpdate);
+            var form = new Edit(new ContactControl(selectedContact, isEdit: true), actionEdit: ActUpdate);
             form.Show();
-        }*/
+        }
     }
 }

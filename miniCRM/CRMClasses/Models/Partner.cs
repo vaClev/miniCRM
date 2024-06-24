@@ -15,7 +15,7 @@ namespace CRMClasses.Models
 
         public Partner() 
         {
-            Id = Guid.NewGuid();
+            //Id = Guid.NewGuid();
             FullName = "";
             ShortName = "";
             INN = "0";

@@ -16,7 +16,7 @@ namespace CRMClasses.Models
         public int totalCost {  set; get; }
         public Deal()
         {
-            Id = Guid.NewGuid();
+            //Id = Guid.NewGuid();
             Partner = new Partner();
             StageOfSale = 0;
             totalCost = 0;

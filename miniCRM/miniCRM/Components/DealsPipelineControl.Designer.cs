@@ -31,6 +31,7 @@
             button1 = new Button();
             button2 = new Button();
             tableLayoutPanel1 = new TableLayoutPanel();
+            label1 = new Label();
             SuspendLayout();
             // 
             // button1
@@ -61,16 +62,27 @@
             tableLayoutPanel1.Location = new Point(3, 52);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 2;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle());
             tableLayoutPanel1.Size = new Size(1300, 500);
             tableLayoutPanel1.TabIndex = 2;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label1.Location = new Point(450, 12);
+            label1.Name = "label1";
+            label1.Size = new Size(227, 37);
+            label1.TabIndex = 3;
+            label1.Text = "Воронка продаж";
             // 
             // DealsPipelineControl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
+            Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -85,5 +97,6 @@
         private Button button1;
         private Button button2;
         private TableLayoutPanel tableLayoutPanel1;
+        private Label label1;
     }
 }

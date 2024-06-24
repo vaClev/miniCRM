@@ -34,6 +34,8 @@ namespace miniCRM.Components.EditControls
             textBox1.Text = deal.Id.ToString();
             textBox2.Text = deal.Description;
             textBox3.Text = deal.totalCost.ToString();
+            ComboBoxItemsSetter.SelectPartner(deal.Partner.Id, comboBox1);
+            comboBox2.SelectedIndex = deal.StageOfSale;
         }
         //измененение поля описание
         private void textBox2_TextChanged(object sender, EventArgs e)

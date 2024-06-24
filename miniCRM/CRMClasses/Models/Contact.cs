@@ -12,15 +12,16 @@ namespace CRMClasses.Models
         public Guid Id { get; set; }
         public Partner Partner { get; set; }
         public Deal? Deal { get; set; }
+
         public byte TypeOfContact { get; set; }
         public string? GoalDescription { get; set; }
         public string? ResultDescription { get; set; }
         public DateTime Date { get; set; }
-        bool IsCompleted { get; set; }
+        public bool IsCompleted { get; set; }
 
         public Contact()
         {
-            this.Id = Guid.NewGuid();
+            //this.Id = Guid.NewGuid();
             Partner = new Partner();
             Deal = null;
             TypeOfContact = 0;

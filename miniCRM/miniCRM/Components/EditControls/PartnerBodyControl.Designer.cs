@@ -44,6 +44,7 @@
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(524, 64);
             listBox1.TabIndex = 1;
+            listBox1.DoubleClick += listBox1_DoubleClick;
             // 
             // label1
             // 
@@ -71,6 +72,7 @@
             listBox2.Name = "listBox2";
             listBox2.Size = new Size(524, 94);
             listBox2.TabIndex = 4;
+            listBox2.DoubleClick += listBox2_DoubleClick;
             // 
             // button1
             // 

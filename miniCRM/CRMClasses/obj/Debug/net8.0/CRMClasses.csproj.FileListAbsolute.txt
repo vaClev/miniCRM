@@ -43,3 +43,21 @@ C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\CRMClasses\obj\Debug
 C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\CRMClasses\obj\Debug\net8.0\refint\CRMClasses.dll
 C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.pdb
 C:\Users\Oleg Vasilev\Desktop\Новая папка\miniCRM\CRMClasses\obj\Debug\net8.0\ref\CRMClasses.dll
+C:\Users\StudentApple.TOP.003\Desktop\Новая папка\miniCRM\miniCRM\CRMClasses\bin\Debug\net8.0\CRMClasses.deps.json
+C:\Users\StudentApple.TOP.003\Desktop\Новая папка\miniCRM\miniCRM\CRMClasses\bin\Debug\net8.0\CRMClasses.dll
+C:\Users\StudentApple.TOP.003\Desktop\Новая папка\miniCRM\miniCRM\CRMClasses\bin\Debug\net8.0\CRMClasses.pdb
+C:\Users\StudentApple.TOP.003\Desktop\Новая папка\miniCRM\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\StudentApple.TOP.003\Desktop\Новая папка\miniCRM\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.AssemblyInfoInputs.cache
+C:\Users\StudentApple.TOP.003\Desktop\Новая папка\miniCRM\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.AssemblyInfo.cs
+C:\Users\StudentApple.TOP.003\Desktop\Новая папка\miniCRM\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.csproj.CoreCompileInputs.cache
+C:\Users\StudentApple.TOP.003\Desktop\Новая папка\miniCRM\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.sourcelink.json
+C:\Users\StudentApple.TOP.003\Desktop\Новая папка\miniCRM\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.dll
+C:\Users\StudentApple.TOP.003\Desktop\Новая папка\miniCRM\miniCRM\CRMClasses\obj\Debug\net8.0\refint\CRMClasses.dll
+C:\Users\StudentApple.TOP.003\Desktop\Новая папка\miniCRM\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.pdb
+C:\Users\StudentApple.TOP.003\Desktop\Новая папка\miniCRM\miniCRM\CRMClasses\obj\Debug\net8.0\ref\CRMClasses.dll
+C:\Users\StudentApple.TOP.003\Desktop\Новая папка\miniCRM\miniCRM\CRMClasses\bin\Debug\net8.0\CRMClasses.runtimeconfig.json
+C:\Users\StudentApple.TOP.003\Desktop\Новая папка\miniCRM\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.csproj.AssemblyReference.cache
+C:\Users\StudentApple.TOP.003\Desktop\Новая папка\miniCRM\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.genruntimeconfig.cache
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\CRMClasses\bin\Debug\net8.0\CRMClasses.runtimeconfig.json
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.csproj.AssemblyReference.cache
+C:\Users\Oleg Vasilev\Desktop\C#\winForm\miniCRM\miniCRM\CRMClasses\obj\Debug\net8.0\CRMClasses.genruntimeconfig.cache

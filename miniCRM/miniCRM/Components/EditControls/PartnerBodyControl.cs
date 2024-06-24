@@ -31,7 +31,7 @@ namespace miniCRM.Components.EditControls
 
         //Лучше это выделить в отдельный компонент
         //Создание новой сделки из диалога контрагента
-        
+
         private void button1_Click(object sender, EventArgs e)
         {
             var form = new Edit(new DealControl(partner), actionEdit: ActUpdateDeal, actionCreate: ActAddDeal);
@@ -56,8 +56,18 @@ namespace miniCRM.Components.EditControls
             UpdateListboxes(); // это обновит и список контактов -(на случай если контакты создавались в карточке сделки) 
             // нужно додумать через события
         }
+        //нажатие кнопки редактировать сделку
+        private void listBox1_DoubleClick(object sender, EventArgs e)
+        {
+            Deal? selectedDeal = (Deal?)listBox1.SelectedItem;
+            if (selectedDeal != null)
+            {
+                selectedDeal = new DealBehavior().GetDeal(selectedDeal.Id);
+                var form = new Edit(new DealControl(selectedDeal, isEdit: true), actionEdit: ActUpdateDeal);
+                form.Show();
+            } 
+        }
 
-      
 
 
 
@@ -74,7 +84,6 @@ namespace miniCRM.Components.EditControls
             listBox2.Items.Clear();
             listBox2.Items.AddRange(behavePartners.GetContactsByPartner(partner).ToArray());
         }
-
         void ActAddContact(UserControl userControl)
         {
             DataAdder.ActAdd(userControl);
@@ -84,6 +93,15 @@ namespace miniCRM.Components.EditControls
         {
             DataAdder.ActUpdate(userControl);
             UpdateContactsListbox();
+        }
+
+        private void listBox2_DoubleClick(object sender, EventArgs e)
+        {
+            Contact? selectedContact = (Contact?)listBox2.SelectedItem;
+            if (selectedContact == null) return;
+
+            var form = new Edit(new ContactControl(selectedContact, isEdit: true), actionEdit: ActUpdateContact);
+            form.Show();
         }
     }
 }

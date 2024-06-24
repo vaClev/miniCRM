@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Common;
 using System.Drawing;
 using System.Linq;
 using System.Reflection.Emit;
@@ -24,11 +25,24 @@ namespace miniCRM.Components
         {
             dealColumnsContainer = new DealColumnsContainer(StagesOfSale.Stages.Length);
             InitializeComponent();
-            tableLayoutPanel1.ColumnCount = StagesOfSale.Stages.Length;
+            InitializeTable();
             Size = parentCompSize;
             UpdateDeals();
         }
-
+        private void InitializeTable()
+        {
+            tableLayoutPanel1.ColumnCount = StagesOfSale.Stages.Length;
+            int i= 0;
+            foreach (string  stage in StagesOfSale.Stages) 
+            {
+                System.Windows.Forms.Label label = new System.Windows.Forms.Label();
+                label.Text = stage;
+                label.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point, 104);
+                label.Size = new Size(150, 200);
+                tableLayoutPanel1.Controls.Add(label, i, 0);
+                i++;
+            }
+        }
         private void UpdateDeals()
         {
             dealColumnsContainer.Clear();
@@ -38,7 +52,7 @@ namespace miniCRM.Components
             //сортировка сделок по колонкам
             foreach (var deal in deals)
             {
-                dealColumnsContainer.GetByIndex(deal.StageOfSale)?.AddDeal(deal);
+                dealColumnsContainer.GetByIndex(deal.StageOfSale)?.AddDeal(deal, UpdateDeals);
             }
             // добавление колонок со сделками в отрисованную таблицу
             int i = 0;

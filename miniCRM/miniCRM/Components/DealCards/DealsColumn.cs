@@ -18,9 +18,9 @@ namespace miniCRM.Components.DealCards
         {
             InitializeComponent();
         }
-        public void AddDeal(Deal deal)
+        public void AddDeal(Deal deal, Action UpdateDeals)
         {
-            DealSmallControl dealSmallControl = new DealSmallControl(deal);
+            DealSmallControl dealSmallControl = new DealSmallControl(deal, UpdateDeals);
             flowLayoutPanel1.Controls.Add(dealSmallControl);
         }
         public void Clear()

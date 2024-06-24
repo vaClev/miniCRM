@@ -41,6 +41,7 @@
             textBox2 = new TextBox();
             label7 = new Label();
             dateTimePicker1 = new DateTimePicker();
+            checkBox1 = new CheckBox();
             SuspendLayout();
             // 
             // label1
@@ -161,11 +162,23 @@
             dateTimePicker1.TabIndex = 12;
             dateTimePicker1.ValueChanged += dateTimePicker1_ValueChanged;
             // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(670, 205);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(126, 19);
+            checkBox1.TabIndex = 13;
+            checkBox1.Text = "Контакт завершен";
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
             // ContactControl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Moccasin;
+            Controls.Add(checkBox1);
             Controls.Add(dateTimePicker1);
             Controls.Add(label7);
             Controls.Add(textBox2);
@@ -200,5 +213,6 @@
         private TextBox textBox2;
         private Label label7;
         private DateTimePicker dateTimePicker1;
+        private CheckBox checkBox1;
     }
 }

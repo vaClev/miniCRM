@@ -10,8 +10,7 @@ using System.Windows.Forms;
 using CRMClasses.Models;
 
 namespace miniCRM.Components.EditControls
-{
-    
+{ 
     public partial class DealControl : UserControl, IModelComponent, IEditWindowControl
     {
         Deal deal;
@@ -92,7 +91,7 @@ namespace miniCRM.Components.EditControls
 
         string IEditWindowControl.GetWindowName()
         {
-            return isEdit ? $"{deal.Id} {deal.Description}" : "Cоздание новой сделки";
+            return isEdit ? $"Сделка: {deal.Description} - {deal.Partner.ShortName}" : "Cоздание новой сделки";
         }
     }
 }

@@ -50,6 +50,7 @@
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(994, 94);
             listBox1.TabIndex = 1;
+            listBox1.DoubleClick += listBox1_DoubleClick;
             // 
             // button1
             // 
