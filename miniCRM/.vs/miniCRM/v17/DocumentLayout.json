@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|solutionrelative:crmclasses\\behavior\\contactbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|c:\\users\\oleg vasilev\\desktop\\c#\\winform\\minicrm\\minicrm\\crmclasses\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|solutionrelative:crmclasses\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|c:\\users\\oleg vasilev\\desktop\\c#\\winform\\minicrm\\minicrm\\crmclasses\\behavior\\dealbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|solutionrelative:crmclasses\\behavior\\dealbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|c:\\users\\oleg vasilev\\desktop\\c#\\winform\\minicrm\\minicrm\\minicrm\\patterns\\comboboxitemssetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|solutionrelative:minicrm\\patterns\\comboboxitemssetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|c:\\users\\oleg vasilev\\desktop\\c#\\winform\\minicrm\\minicrm\\crmclasses\\models\\deal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\crmclasses\\models\\deal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|solutionrelative:crmclasses\\models\\deal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|c:\\users\\oleg vasilev\\desktop\\c#\\winform\\minicrm\\minicrm\\crmclasses\\dbcontextclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\crmclasses\\behavior\\dealbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|solutionrelative:crmclasses\\behavior\\dealbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\crmclasses\\dbcontextclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|solutionrelative:crmclasses\\dbcontextclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\crmclasses\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCEAC26-904B-4020-AE16-3BA9B6F48C37}|CRMClasses\\CRMClasses.csproj|solutionrelative:crmclasses\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\minicrm\\patterns\\comboboxitemssetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF3157FC-21B1-4D1B-A711-3F9FDDC24136}|miniCRM\\miniCRM.csproj|solutionrelative:minicrm\\patterns\\comboboxitemssetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ComboBoxItemsSetter.cs",
               "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\miniCRM\\Patterns\\ComboBoxItemsSetter.cs",
               "RelativeDocumentMoniker": "miniCRM\\Patterns\\ComboBoxItemsSetter.cs",
@@ -58,12 +58,11 @@
               "RelativeToolTip": "miniCRM\\Patterns\\ComboBoxItemsSetter.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAQwB4AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T19:13:15.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T19:13:15.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\CRMClasses\\Models\\Contact.cs",
               "RelativeDocumentMoniker": "CRMClasses\\Models\\Contact.cs",
@@ -71,18 +70,17 @@
               "RelativeToolTip": "CRMClasses\\Models\\Contact.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T17:45:53.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T17:45:53.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Deal.cs",
               "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\CRMClasses\\Models\\Deal.cs",
               "RelativeDocumentMoniker": "CRMClasses\\Models\\Deal.cs",
               "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\CRMClasses\\Models\\Deal.cs",
               "RelativeToolTip": "CRMClasses\\Models\\Deal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T17:45:51.812Z",
               "EditorCaption": ""
@@ -95,7 +93,7 @@
               "RelativeDocumentMoniker": "CRMClasses\\Behavior\\ContactBehavior.cs",
               "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\CRMClasses\\Behavior\\ContactBehavior.cs",
               "RelativeToolTip": "CRMClasses\\Behavior\\ContactBehavior.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAA9wDMAAAA0AAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwCUAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T16:58:20.918Z",
               "EditorCaption": ""
@@ -108,14 +106,14 @@
               "RelativeDocumentMoniker": "CRMClasses\\Behavior\\DealBehavior.cs",
               "ToolTip": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\CRMClasses\\Behavior\\DealBehavior.cs",
               "RelativeToolTip": "CRMClasses\\Behavior\\DealBehavior.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwEYAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACkAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T16:47:38.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "DBContextClass.cs",
               "DocumentMoniker": "C:\\Users\\Oleg Vasilev\\Desktop\\C#\\winForm\\miniCRM\\miniCRM\\CRMClasses\\DBContextClass.cs",
               "RelativeDocumentMoniker": "CRMClasses\\DBContextClass.cs",

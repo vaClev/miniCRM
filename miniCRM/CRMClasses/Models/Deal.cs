@@ -11,16 +11,11 @@ namespace CRMClasses.Models
     {
         public Guid Id { set; get; }
         public Partner Partner { set; get; }
+        public Guid PartnerId { set; get; }
         public byte StageOfSale { set; get; }
         public string? Description { set; get; }
         public int totalCost {  set; get; }
-        public Deal()
-        {
-            //Id = Guid.NewGuid();
-            Partner = new Partner();
-            StageOfSale = 0;
-            totalCost = 0;
-        }
+
         public override string ToString()
         {
             return $"{StagesOfSale.Stages[StageOfSale]} {Description} {totalCost}";

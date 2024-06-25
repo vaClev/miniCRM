@@ -47,15 +47,17 @@ namespace CRMClasses.Behavior
                 }
                 if (contact.Deal != null) 
                 {
-                    Deal temp = contact.Deal;
-                    contact.Deal = null;
+                    contact.Deal = DBContext.Deals.FirstOrDefault(d=>d.Id==contact.Deal.Id); //получение сделки без записанного в нее партнера --- без .Include(partner)
+                    if (contact.Deal != null)
+                    {
+                        DBContext.Attach(contact.Deal);
+                    }
+                    else
+                    {
+                        throw new ArgumentException("попытка добавления контакта к несуществующей в репозитории сделке");
+                    }
                     DBContext.Contacts.Add(contact);
                     DBContext.SaveChanges();
-
-                    /*var ContactToChange = DBContext.Contacts.FirstOrDefault(p => p.Id == contact.Id);
-                    ContactToChange.Deal = temp;
-                    DBContext.Attach(temp);
-                    DBContext.SaveChanges();*/
                 }
                 return;
             }
